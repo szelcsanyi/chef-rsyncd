@@ -1,5 +1,6 @@
 # rsyncd cookbook
 [![Build Status](https://travis-ci.org/szelcsanyi/chef-rsyncd.svg?branch=master)](https://travis-ci.org/szelcsanyi/chef-rsyncd)
+[![security](https://hakiri.io/github/szelcsanyi/chef-rsyncd/master.svg)](https://hakiri.io/github/szelcsanyi/chef-rsyncd/master)
 
 ## Description
 
