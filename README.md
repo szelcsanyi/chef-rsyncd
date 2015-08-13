@@ -1,6 +1,7 @@
-# rsyncd cookbook
+# L7-rsyncd cookbook
 [![Build Status](https://travis-ci.org/szelcsanyi/chef-rsyncd.svg?branch=master)](https://travis-ci.org/szelcsanyi/chef-rsyncd)
 [![security](https://hakiri.io/github/szelcsanyi/chef-rsyncd/master.svg)](https://hakiri.io/github/szelcsanyi/chef-rsyncd/master)
+[![Cookbook Version](https://img.shields.io/cookbook/v/L7-rsyncd.svg?style=flat)](https://supermarket.chef.io/cookbooks/L7-rsyncd)
 
 ## Description
 
@@ -8,15 +9,15 @@ Configures [Rsyncd](http://en.wikipedia.org/wiki/Rsync) via Opscode Chef
 
 ## Supported Platforms
 
-* Ubuntu
-* Debian
+* Ubuntu 12.04+
+* Debian 7.0+
 
 ## Recipes
 
 * `rsyncd` - Installs and starts rsync daemon.
 
 ## Definitions
-* `rsyncd_share` - Configures rsyncd share
+* `L7_rsyncd_share` - Configures rsyncd share
 
 ## Usage
 ###Definition parameters:
@@ -36,7 +37,7 @@ Only the path parameter is mandatory. Others are optional.
 
 #### An rsyncd share:
 ```ruby
-rsyncd_share "rsyncd_example" do
+rsyncd_share 'rsyncd_example' do
     path "/etc"
     uid "root"
     gid "root"
@@ -59,8 +60,7 @@ Rewrite to LWRP
 
 ## License
 
-* Freely distributable and licensed under the [MIT license](http://szelcsanyi.mit-license.org/2014/license.html).
-* Copyright (c) 2014 Gabor Szelcsanyi
+* Freely distributable and licensed under the [MIT license](http://szelcsanyi.mit-license.org/2015/license.html).
+* Copyright (c) 2015 Gabor Szelcsanyi
 
 [![image](https://ga-beacon.appspot.com/UA-56493884-1/chef-rsyncd/README.md)](https://github.com/szelcsanyi/chef-rsyncd)
-

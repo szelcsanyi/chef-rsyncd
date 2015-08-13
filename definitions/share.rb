@@ -1,10 +1,10 @@
 #
-# Cookbook Name:: rsyncd
+# Cookbook Name:: L7-rsyncd
 # Definition:: share
 #
-# Copyright 2014, Gabor Szelcsanyi <szelcsanyi.gabor@gmail.com>
+# Copyright 2015, Gabor Szelcsanyi <szelcsanyi.gabor@gmail.com>
 
-define :rsyncd_share, list: 'no', read_only: 'yes' do
+define :L7_rsyncd_share, list: 'no', read_only: 'yes' do
 
   t = nil
   begin
@@ -15,7 +15,7 @@ define :rsyncd_share, list: 'no', read_only: 'yes' do
       owner 'root'
       group 'root'
       source 'etc/rsyncd.conf.erb'
-      cookbook 'rsyncd'
+      cookbook 'L7-rsyncd'
       variables(shares: [])
     end
   end
