@@ -37,7 +37,7 @@ Only the path parameter is mandatory. Others are optional.
 
 #### An rsyncd share:
 ```ruby
-rsyncd_share 'rsyncd_example' do
+L7_rsyncd_share 'rsyncd_example' do
     path "/etc"
     uid "root"
     gid "root"
