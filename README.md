@@ -60,7 +60,7 @@ Rewrite to LWRP
 
 ## License
 
-* Freely distributable and licensed under the [MIT license](http://szelcsanyi.mit-license.org/2015/license.html).
-* Copyright (c) 2015 Gabor Szelcsanyi
+* Freely distributable and licensed under the [MIT license](http://szelcsanyi.mit-license.org/2016/license.html).
+* Copyright (c) 2016 Gabor Szelcsanyi
 
 [![image](https://ga-beacon.appspot.com/UA-56493884-1/chef-rsyncd/README.md)](https://github.com/szelcsanyi/chef-rsyncd)

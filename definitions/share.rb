@@ -2,7 +2,7 @@
 # Cookbook Name:: L7-rsyncd
 # Definition:: share
 #
-# Copyright 2015, Gabor Szelcsanyi <szelcsanyi.gabor@gmail.com>
+# Copyright 2016, Gabor Szelcsanyi <szelcsanyi.gabor@gmail.com>
 
 define :L7_rsyncd_share, list: 'no', read_only: 'yes' do
 
@@ -30,7 +30,7 @@ define :L7_rsyncd_share, list: 'no', read_only: 'yes' do
         owner 'root'
         group 'root'
         source 'etc/rsyncd.secrets.erb'
-        cookbook 'rsyncd'
+        cookbook 'L7-rsyncd'
         variables(users: nil)
       end
     end

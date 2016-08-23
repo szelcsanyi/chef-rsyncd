@@ -4,7 +4,7 @@ license          'MIT'
 description      'Installs/Configures rsyncd'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 name             'L7-rsyncd'
-version          '1.0.2'
+version          '1.0.3'
 source_url       'https://github.com/szelcsanyi/chef-rsyncd'
 issues_url       'https://github.com/szelcsanyi/chef-rsyncd/issues'
 
